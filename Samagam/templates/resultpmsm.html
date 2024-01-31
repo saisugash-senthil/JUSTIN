@@ -1,14 +1,10 @@
 {%extends "layout1.html"%}
 {% block stuff %}
 <h1 class="dark">Result</h1>
-    <h3 class="dark">The predicted value for the day {{ text_boxes+1 }} is:</h3>
+    <h3 class="dark">The predicted value of the permanent magnet temperature is: </h3>
     
         <p>{{ prediction_result[0] }}</p>
     <div>
-    <figure class="figure">
-    {{plot_html|safe}}
-          <figcaption class="figure-caption">A depiction of the Confidence Interval for the time series forecast</figcaption>
-</figure>
     </div>
             <form method="post" action="{{ url_for('home') }}" enctype="multipart/form-data">
 
