@@ -18,6 +18,7 @@ import base64
 
 app = Flask(__name__)
 model = pickle.load(open('dprofiling.pkl','rb'))
+modelpmsm = pickle.load(open('DecisionTreeRegressor_model (1).pkl','rb'))
 
 
 @app.route('/',methods=['GET','POST'])
@@ -38,10 +39,12 @@ def predictdp():
     prediction_result = model.predict([parameters])
     return render_template('resultdp.html',prediction_result=prediction_result)
 
-@app.route('/predictpmsm',methods=['POST'])
+@app.route('/predictpmsm',methods=['GET','POST'])
 def predictpmsm():
-
-    return render_template('resultpmsm.html')
+    sensor_values = {float(request.form[f'a{i}']) for i in range(0, 13)}
+    parameters = sensor_values
+    prediction_result = modelpmsm.predict([parameters])
+    return render_template('resultpmsm.html',prediction_result=prediction_result)
 
 if __name__== '__main__':
     app.run(debug=True)
