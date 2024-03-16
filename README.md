@@ -63,8 +63,8 @@ Provides real-time legal insights and recommendations to prevent wrongful convic
 -**Lower Financial Burden:** Minimizes accident-related costs for individuals, families, and society.
 
 -**Promotes Responsible Drivers:** Personalizes driver education programs and incentivizes safe behavior.
-**Safer Future:** Informs road and car design for long-term accident prevention.
-**Collaboration and Ethics:**
+-**Safer Future:** Informs road and car design for long-term accident prevention.
+-**Collaboration and Ethics:**
 -Project JUSTIN actively seeks partnerships with legal experts, transportation authorities, insurance companies, car manufacturers, and technology providers.
 Data privacy, transparency in AI decision-making, and adherence to legal frameworks are paramount throughout development and implementation.
 Project JUSTIN ushers in a new era where the roads are safer, legal outcomes are fairer, and the journey towards a safer future begins now. Join us in building a smarter, more secure road ecosystem!
