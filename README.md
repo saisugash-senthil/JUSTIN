@@ -61,6 +61,7 @@ Provides real-time legal insights and recommendations to prevent wrongful convic
 -**Reduced Wrongful Convictions:** Ensures accurate legal analysis and minimizes the risk of injustice.
 -**Fewer Road Accidents:** Prevents accidents with on-board AI, targeted interventions, and safer road design.
 -**Lower Financial Burden:** Minimizes accident-related costs for individuals, families, and society.
+
 -**Promotes Responsible Drivers:** Personalizes driver education programs and incentivizes safe behavior.
 **Safer Future:** Informs road and car design for long-term accident prevention.
 **Collaboration and Ethics:**
