@@ -66,7 +66,7 @@ Provides real-time legal insights and recommendations to prevent wrongful convic
 
 -**Safer Future:** Informs road and car design for long-term accident prevention.
 
-- ## Collaboration and Ethics:
+## Collaboration and Ethics:
 
 -Project JUSTIN actively seeks partnerships with legal experts, transportation authorities, insurance companies, car manufacturers, and technology providers.
 Data privacy, transparency in AI decision-making, and adherence to legal frameworks are paramount throughout development and implementation.
